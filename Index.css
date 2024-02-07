@@ -1,66 +1,239 @@
-nav {
-    /* position: fixed; */
-    box-shadow: 0 0 5px 2px black;
-    top: 0%;
-    width: 100%;
-    background-color: #025789;
-    color: white;
-    padding-bottom: 2px;
-    z-index: 3;
-    backdrop-filter: blur(10px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+body {
+    font-family: "Dongle", Sans-serif;
   }
   
-  .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  ul {
+    list-style: outside circle none;
+    color: black;
+    margin-left: 0;
+    padding-left: 1em;
+    font-family: "Dongle", Sans-serif;
   }
   
-  .navbar-brand img {
-    height: 50px;color: white !important;
-    width: auto;
-    margin: 0;
+  ul li {
+    margin-bottom: 15px;
+    font-size: large;
+  
+    /* font-weight: bold; */
+    font-family: "Dongle", Sans-serif;
+    font-size: 1.4em; /* Ajustez la taille du titre "Avantages pour Architecte en Ligne" selon vos préférences */
+    
   }
   
-  .navbar-toggler {
-    background-color: transparent;
-    border: none;
-    outline: none;
+  
+  ul ul {
+    list-style: inside circle none;
+    margin-left: 0;
+    padding-left: 1em;
+    font-family: "Dongle", Sans-serif;
+  
   }
   
-  .navbar-toggler-icon {
-    background-color: white;
+  ul ul li {
+    list-style-type: disc;
+    font-family: "Dongle", Sans-serif;
   }
   
-  .navbar-nav {
-    margin-top: 10px;
+  .custom-container {
+    text-align: center;
+    padding: 8%;
+    position: relative;
   }
   
-  .nav-item {
-    margin-left: 20px;
-    margin-right: 20px;
+  
+  .background-container1 {
+    background-image: url('architecte.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(2px);
+    z-index: -5;
   }
   
-  .nav-link {
-    color: white !important;
-    font-size: 1.3em;
-    transition: font-size 0.5s ease;
+  
+
+  .diff {
+    margin-top: 0%;
+    font-weight: bolder;
+    font-size: 3.5em;
+    font-family: "Dongle", Sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
   }
   
-  .nav-link:hover {
-    font-family: roboto;
+  .diff1 {
+    margin-top: 2%;
+    /* font-weight: bolder; */
+    font-size: 2em;
+    text-align: center;
+    color: #ffffff;
+    /* margin-left: 10%; */
+    white-space: pre-wrap;
+  }
+  
+  
+  
+  
+  
+  
+  
+  h1, h5, h4, h3 {
+    margin-bottom: 20px;
+    line-height: 3;
+    font-family: "Dongle", Sans-serif;
+  }
+  
+  h1 {
+    font-size: 60px;
+    font-family: "Dongle", Sans-serif;
+  
+  }
+  
+  h3 {
+    /* font-style:  italic; */
+    font-weight: bold;
+    margin-top: 4%;
+    margin-bottom: 3%;
+    font-size: 3em; /* Ajustez la taille du titre "Avantages pour Architecte en Ligne" selon vos préférences */
+    text-align: center; /* Centrez le titre horizontalement */
+    color: #025789; /* Ajoutez une couleur au texte pour le mettre en évidence */
+    font-family: "Dongle", Sans-serif;
+  }
+  
+  .body{
+    background-color: #d5d8db93;
+  
+  }
+  
+  
+  
+  
+  .dif{
+    margin-top: -17%;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: "Dongle", Sans-serif;
+    text-align: left; 
+    color: #ffffff;
+    margin-left: 10%; 
+  }
+  .dif1{
+    margin-top: 0%;
+    /* font-weight: bold; */
+    font-weight: normal;
+    font-size: 1.5em; 
+    text-align: left; 
+    color: #ffffff; 
+    font-family: "Dongle", Sans-serif;
+    white-space: pre-line; 
+    /* text-align-last: left;
+    white-space: normal;  */
+    margin-left: 10%;
+    white-space: pre-wrap;
+  }
+  
+  .Photo {
+    text-align: center;
+    padding: 18%;
+    position: relative;
+    margin-top: 5%;
+  }
+  
+  .Photo::before {
+    content: "";
+    background-image: url('Bureau.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    filter: blur(2px);
+    z-index: -5; /* Placez l'arrière-plan flou en dessous du contenu */
+  }
+  
+  
+  .navbar
+  {
+    background-color: white; /* Choisissez la couleur souhaitée */
+    /* Ajustez l'opacité selon vos préférences */
+    z-index: -1;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black; /* Choisissez la couleur souhaitée */
+    opacity: 0.5; /* Ajustez l'opacité selon vos préférences */
+    z-index: -1;
+  }
+  
+  /* .ask-question-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
     font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #2e6c8f;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
   }
   
-  .btn-primary {
-    border-radius: 100px;
-    height: 45px;
-    background-color: white;
-    color: #025789;
-    margin-left: 10px;
+  .ask-question-btn:hover {
+    background-color: #025789;
+  } */
+  .ask-question-btn {
+    margin-top:6%;
+    padding: 13px 20px;
+    font-size: 1.6em; /* Ajustez la taille de la police selon vos préférences */
+    font-weight: 200;
+    letter-spacing: 1px;
+    outline: 0;
+    border: 1px solid black;
+    cursor: pointer;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: background-color 0.3s ease;
   }
   
-  .space-above-header {
-    height: 100px; /* Ajustez la hauteur selon vos besoins */
+  .ask-question-btn:after {
+    content: "";
+    background-color: #025789;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 7px;
+    left: 7px;
+    transition: 0.2s;
   }
+  
+  .ask-question-btn:hover:after {
+    top: 0px;
+    left: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .ask-question-btn {
+      padding: 13px 50px;
+    }
+  }
+  
+  
+  
