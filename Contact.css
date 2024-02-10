@@ -1,0 +1,166 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+  }
+  ul {
+    list-style: outside circle none;
+    color: black;
+    margin-left: 0;
+    padding-left: 1em;
+    font-family: "Dongle", Sans-serif;
+  }
+  ul li {
+    margin-bottom: 15px;
+    font-size: large;
+    font-family: "Dongle", Sans-serif;
+    font-size: 1.4em; 
+  }
+  ul ul {
+    list-style: inside circle none;
+    margin-left: 0;
+    padding-left: 1em;
+    font-family: "Dongle", Sans-serif;
+  }
+  ul ul li {
+    list-style-type: disc;
+    font-family: "Dongle", Sans-serif;
+  }
+  .navbar-brand img {
+    height: 80px;
+    width: auto;
+  }
+  .navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+  
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+  }
+  
+  .navbar-nav {
+    justify-content: center;
+  }
+
+  .nav-item {
+    margin-right: 15px;
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: gray;
+  }
+  .btn-primary {
+    font-family: roboto;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3 ;
+  }
+  .custom-container {
+    text-align: center;
+    padding:3%;
+    font-style: inherit;font-family:"Dongle", Sans-serif;
+    background-color:#d5d8db64;
+    color: #025789;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    transform: translateX(0); 
+    transition: transform 1s ease;
+  }
+  h1{
+   font-weight: bold;
+  font-size: 4em;
+  font-family: "Dongle", Sans-serif;
+ 
+  }
+  .contact{
+    text-align: center;
+    color: #025789;
+    margin-top:0px;
+  }
+  .cont{
+    display: flex; flex-direction: column; align-content: space-around;
+    box-shadow: 0 0 10px; color:transparent; backdrop-filter: blur(20px);margin-top: 10px;
+    background-color: white;
+  }
+  body{
+    height: auto;
+    padding-top: 95px;
+    background-color: #EBF4DF;
+     z-index: -1;
+  }
+    .contactBody{
+      display:flex; justify-content: space-around; 
+    margin-bottom: 100px;
+    }
+    form{
+      width:700px;
+    }
+    textarea{
+      display: block;
+      width: 100%;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color:black;
+      resize: none;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      -webkit-appearance: none;
+      appearance: none; 
+    }
+    .btne{
+      display: block;
+      width: 100%;
+      padding: 0.375rem 0.75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color:white;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .locationMap{
+      display: flex; flex-direction: column;margin-left: 30px;margin-right: 30px;
+    }
+    form .card,.locationMap .card{
+      background-color: transparent;
+      color:white; font-weight: bold; font-size:30px;
+      border: none;
+    }
+   .contactDetails{
+      display:flex; width:100%; 
+      justify-content:space-between;  
+      top: 0;
+    }
+    .detail{
+      margin:0 10px 0 10px;
+    }
+    .black{
+    z-index: 20; color:black;font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+  }
