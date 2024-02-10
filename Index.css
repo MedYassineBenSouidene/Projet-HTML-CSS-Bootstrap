@@ -98,10 +98,6 @@ body {
     background-color: #d5d8db93;
   
   }
-  
-  
-  
-  
   .dif{
     margin-top: -17%;
     font-weight: bold;
@@ -144,8 +140,7 @@ body {
     filter: blur(2px);
     z-index: -5; 
   }
-  
-  
+ 
   .navbar
   {
     background-color: white;
