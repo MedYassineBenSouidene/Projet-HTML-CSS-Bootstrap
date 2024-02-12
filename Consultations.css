@@ -1,203 +1,206 @@
 body {
-    font-family: "Dongle", Sans-serif;
-  }
-  
-  ul {
-    list-style: outside circle none;
-    color: black;
-    margin-left: 0;
-    padding-left: 1em;
-    font-family: "Dongle", Sans-serif;
-  }
-  
-  ul li {
-    margin-bottom: 15px;
-    font-size: large;
-    font-family: "Dongle", Sans-serif;
-    font-size: 1.4em; 
-    
-  }
-  
-  
-  ul ul {
-    list-style: inside circle none;
-    margin-left: 0;
-    padding-left: 1em;
-    font-family: "Dongle", Sans-serif;
-  
-  }
-  
-  ul ul li {
-    list-style-type: disc;
-    font-family: "Dongle", Sans-serif;
-  }
-  
-  .custom-container {
-    text-align: center;
-    padding: 8%;
-    position: relative;
-  }
-  
-  
-  .background-container1 {
-    background-image: url('architecte.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(2px);
-    z-index: -5;
-  }
-  
-  
+  font-family: "Dongle", Sans-serif;
+}
 
-  .diff {
-    margin-top: 0%;
-    font-weight: bolder;
-    font-size: 3.5em;
-    font-family: "Dongle", Sans-serif;
-    color: rgb(255, 255, 255);
-    text-align: center;
-  }
-  
-  .diff1 {
-    margin-top: 2%;
-    font-size: 2em;
-    text-align: center;
-    color: #ffffff;
+ul {
+  list-style: outside circle none;
+  color: black;
+  margin-left: 0;
+  padding-left: 1em;
+  font-family: "Dongle", Sans-serif;
+}
 
-    white-space: pre-wrap;
-  }
-  h1, h5, h4, h3 {
-    margin-bottom: 20px;
-    line-height: 3;
-    font-family: "Dongle", Sans-serif;
-  }
+ul li {
+  margin-bottom: 15px;
+  font-size: large;
+  font-family: "Dongle", Sans-serif;
+  font-size: 1.4em; 
   
-  h1 {
-    font-size: 60px;
-    font-family: "Dongle", Sans-serif;
-  
-  }
-  
-  h3 {
-    font-weight: bold;
-    margin-top: 4%;
-    margin-bottom: 3%;
-    font-size: 3em; 
-    text-align: center; 
-    color: #025789; 
-    font-family: "Dongle", Sans-serif;
-  }
-  
-  .body{
-    background-color: #d5d8db93;
-  
-  }
-  .dif{
-    margin-top: -17%;
-    font-weight: bold;
-    font-size: 2em;
-    font-family: "Dongle", Sans-serif;
-    text-align: left; 
-    color: #ffffff;
-    margin-left: 10%; 
-  }
-  .dif1{
-    margin-top: 0%;
-    font-weight: normal;
-    font-size: 1.5em; 
-    text-align: left; 
-    color: #ffffff; 
-    font-family: "Dongle", Sans-serif;
-    white-space: pre-line; 
-    margin-left: 10%;
-    white-space: pre-wrap;
-  }
-  
-  .Photo {
-    text-align: center;
-    padding: 18%;
-    position: relative;
-    margin-top: 5%;
-  }
-  
-  .Photo::before {
-    content: "";
-    background-image: url('Bureau.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    filter: blur(2px);
-    z-index: -5; 
-  }
- 
-  .navbar
-  {
-    background-color: white;
-    z-index: -1;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black; 
-    opacity: 0.5; 
-    z-index: -1;
-  }
-  
-  .ask-question-btn {
-    margin-top:6%;
-    padding: 13px 20px;
-    font-size: 1.6em; 
-    font-weight: 200;
-    letter-spacing: 1px;
-    outline: 0;
-    border: 1px solid black;
-    cursor: pointer;
-    position: relative;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    transition: background-color 0.3s ease;
-  }
-  
-  .ask-question-btn:after {
-    content: "";
-    background-color: #025789;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-    transition: 0.2s;
-  }
-  
-  .ask-question-btn:hover:after {
-    top: 0px;
-    left: 0px;
-  }
-  
-  @media (min-width: 768px) {
-    .ask-question-btn {
-      padding: 13px 50px;
-    }
-  }
-  
-  
-  
+}
+
+
+ul ul {
+  list-style: inside circle none;
+  margin-left: 0;
+  padding-left: 1em;
+  font-family: "Dongle", Sans-serif;
+
+}
+
+ul ul li {
+  list-style-type: disc;
+  font-family: "Dongle", Sans-serif;
+}
+
+
+.navbar
+{
+  background-color: white;
+  z-index: -1;
+}
+
+
+
+.carousel-inner {
+height: 600px;
+}
+
+.carousel-image {
+height: 600px;
+object-fit: fill;
+}
+
+.carousel-buttons {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 130px;
+}
+.margett{
+margin-left: 2%;
+margin-right: 2%;
+
+}
+.btn {
+border-radius: 10%;
+margin: 0 0.25%;
+padding: 0.005% 0.005%;
+font-size: 20px;
+
+}
+.custom-btn {
+width: 100%; 
+}
+.retour-btn{
+width: 50%;
+text-align: center;
+}
+.btn:hover {
+box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+transition-duration: .1s;
+}
+
+.carousel-buttons .row:last-child {
+margin-top: 20px;
+}
+
+.custom-btn-container {
+margin: 0 0.1%;
+}
+
+h1{
+
+font-weight: bold;
+margin-top: 0%;
+margin-bottom: 1%;
+font-size: 8ch; 
+text-align: center; 
+color: #025789; 
+font-family: "Dongle", Sans-serif;
+}
+
+.a{
+width: 60%;
+height: 40px;
+color: white;
+}
+
+.table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+}
+
+thead {
+background-color: #025789;
+color: white;
+}
+
+th, td {
+padding: 12px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+background-color: #f5f5f5;
+}
+
+.actions a {
+margin-right: 5px;
+color: #025789; 
+text-decoration: none;
+}
+
+
+.input-group {
+margin-top: 4%; 
+display: flex;
+justify-content: flex-end;
+width: 30%;
+margin-left: 1%;
+}
+
+.input-group input {
+height: 38px;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 6px;
+margin-right: 5px; 
+}
+
+.input-group button {
+padding: 0.1%;
+font-size: 130%;
+background-color: #025789;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.input-group button:hover {
+background-color: #0056b3;
+}
+
+.paginator {
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 3%;
+margin-left: 95%;
+}
+.form-select{
+width: 450px;
+}
+
+.paginator select, .paginator button {
+height: 38px;
+margin: 0 5px; 
+background-color: #025789;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.paginator select:hover, .paginator button:hover {
+background-color: #025789;
+}
+
+.paginator button[disabled] {
+background-color: #ddd;
+color: #555;
+cursor: not-allowed;
+}
+
+.paginator select {
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 2px;
+}
+
+.space-above-Arch {
+padding: 4%;
+}
+
+

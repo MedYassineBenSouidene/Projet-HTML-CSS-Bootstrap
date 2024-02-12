@@ -157,8 +157,12 @@ body {
     opacity: 0.5; 
     z-index: -1;
   }
+  .test{
+    color: #ffffff;
+  }
   
   .ask-question-btn {
+    z-index: 3;
     margin-top:6%;
     padding: 13px 20px;
     font-size: 1.6em; 
@@ -192,12 +196,7 @@ body {
     top: 0px;
     left: 0px;
   }
-  
-  @media (min-width: 768px) {
-    .ask-question-btn {
-      padding: 13px 50px;
-    }
-  }
+
   
   
   
