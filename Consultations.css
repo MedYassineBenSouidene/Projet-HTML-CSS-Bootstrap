@@ -39,21 +39,6 @@ ul ul li {
   z-index: -1;
 }
 
-.carousel-inner {
-height: 600px;
-}
-
-.carousel-image {
-height: 600px;
-object-fit: fill;
-}
-
-.carousel-buttons {
-display: flex;
-justify-content: center;
-align-items: center;
-margin-top: 130px;
-}
 .margett{
 margin-left: 2%;
 margin-right: 2%;
@@ -77,11 +62,6 @@ text-align: center;
 box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
 transition-duration: .1s;
 }
-
-.carousel-buttons .row:last-child {
-margin-top: 20px;
-}
-
 .custom-btn-container {
 margin: 0 0.1%;
 }
