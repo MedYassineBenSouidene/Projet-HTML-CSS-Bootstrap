@@ -39,8 +39,6 @@ ul ul li {
   z-index: -1;
 }
 
-
-
 .carousel-inner {
 height: 600px;
 }
@@ -162,41 +160,8 @@ cursor: pointer;
 background-color: #0056b3;
 }
 
-.paginator {
-margin-top: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
-width: 3%;
-margin-left: 95%;
-}
 .form-select{
 width: 450px;
-}
-
-.paginator select, .paginator button {
-height: 38px;
-margin: 0 5px; 
-background-color: #025789;
-color: white;
-border: none;
-cursor: pointer;
-}
-
-.paginator select:hover, .paginator button:hover {
-background-color: #025789;
-}
-
-.paginator button[disabled] {
-background-color: #ddd;
-color: #555;
-cursor: not-allowed;
-}
-
-.paginator select {
-border: 1px solid #ccc;
-border-radius: 4px;
-padding: 2px;
 }
 
 .space-above-Arch {
