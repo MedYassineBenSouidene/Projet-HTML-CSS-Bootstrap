@@ -149,3 +149,36 @@ padding: 4%;
 }
 
 
+
+
+
+.footer {
+  background-color: #025789;
+  color: white;
+  position: absolute;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  z-index: 1;
+  margin-left: -2%;
+  margin-right: 0%;
+}
+
+.footer .container {
+  max-width: 1200px;
+  position: relative;
+  z-index: 2;
+}
+
+.footer .content {
+  font-family: "roboto";
+  font-size: 1.3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  margin-bottom: 0px;
+}
+
